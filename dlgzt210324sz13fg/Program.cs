@@ -63,7 +63,7 @@ namespace dlgzt210324sz13fg
 
             counter = 0;
             foreach (var szam in tomb)
-                if (szam - 3000 < 1000 && szam - 3000 > 0)
+                if (szam - 3000 < 1000 && szam - 3000 >= 0)
                     counter++;
 
             Console.WriteLine($"A 3-as számmal kezdődő számok száma: {counter}");
